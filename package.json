@@ -1,0 +1,13 @@
+{
+  "name": "n8n",
+  "version": "0.0.1",
+  "description": "n8n Docker blueprint for Render",
+  "main": "index.js",
+  "dependencies": {
+    "n8n": "latest"
+    "n8n-nodes-openai": "^1.0.0"
+  },
+  "scripts": {
+    "start": "n8n"
+  }
+}
